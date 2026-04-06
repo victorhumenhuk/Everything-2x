@@ -1,0 +1,45 @@
+# Privacy Policy - Everything 2x
+
+**Last updated:** 6 April 2026
+
+## Overview
+
+Everything 2x is a Chrome extension that automatically plays videos at 2x speed while detecting music videos and keeping them at normal speed. This privacy policy explains how the extension handles user data.
+
+## Data Collection
+
+Everything 2x does **not** collect, store, transmit, or share any user data. Specifically, the extension does not collect:
+
+- Personal information (name, email, address, or any identifiers)
+- Browsing history or web activity
+- Authentication or financial information
+- Location data
+- Website content
+- Usage analytics or telemetry
+
+## How the Extension Works
+
+The extension reads page metadata (title, structured data, YouTube category) locally in your browser to determine whether a video is music content. This analysis happens entirely on your device. No page content or metadata is sent to any server.
+
+## Data Storage
+
+The extension stores per-tab speed override preferences in memory only. These reset when the tab is closed. No data is written to disk or synced externally.
+
+## Third Parties
+
+No user data is sold, transferred, or disclosed to any third party.
+
+## Permissions
+
+- **tabs:** Used to send speed control messages between the popup and the active tab.
+- **host_permissions (<all_urls>):** Required to inject the content script that controls video playback speed on any webpage.
+
+These permissions are not used to read, collect, or transmit any page content or user data.
+
+## Changes to This Policy
+
+If this policy is updated, the revised version will be posted at this URL with an updated date.
+
+## Contact
+
+If you have questions about this privacy policy, contact: victor@thesmios.com
