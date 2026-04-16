@@ -1,45 +1,72 @@
-# Privacy Policy - Everything 2x
+**Privacy Policy — Everything 2x**
 
-**Last updated:** 6 April 2026
+Last updated: April 2026
 
-## Overview
+This Privacy Policy explains how **Everything 2x** handles your data. It is available as a Chrome extension and as a Safari Web Extension for macOS and iOS. Developed by Victor Humenhuk.
 
-Everything 2x is a Chrome extension that automatically plays videos at 2x speed while detecting music videos and keeping them at normal speed. This privacy policy explains how the extension handles user data.
+**In short**
 
-## Data Collection
+- No data leaves your device.
+- No tracking, no analytics, no ads.
+- Nothing is saved to disk, not even your per-tab speed settings.
 
-Everything 2x does **not** collect, store, transmit, or share any user data. Specifically, the extension does not collect:
+**What the Extension does**
 
-- Personal information (name, email, address, or any identifiers)
+Everything 2x automatically plays videos at 2x speed, while detecting music videos and keeping them at normal speed. All detection happens locally in your browser.
+
+**What it collects**
+
+Nothing. The Extension does not collect, store, transmit, or share:
+
+- Personal information (name, email, identifiers)
 - Browsing history or web activity
 - Authentication or financial information
 - Location data
 - Website content
-- Usage analytics or telemetry
+- Analytics or telemetry
 
-## How the Extension Works
+**How detection works**
 
-The extension reads page metadata (title, structured data, YouTube category) locally in your browser to determine whether a video is music content. This analysis happens entirely on your device. No page content or metadata is sent to any server.
+The Extension reads page metadata (title, structured data, YouTube category) locally in your browser to decide whether a video is music content. This analysis happens entirely on your device. No page content or metadata is sent to any server.
 
-## Data Storage
+**Data storage**
 
-The extension stores per-tab speed override preferences in memory only. These reset when the tab is closed. No data is written to disk or synced externally.
+None persisted. Per-tab speed overrides are held in memory only and reset when the tab is closed. Nothing is written to disk or synced externally.
 
-## Third Parties
+**Data sharing**
 
-No user data is sold, transferred, or disclosed to any third party.
+None. The Extension makes no external network requests and talks to no servers. No data is sold, transferred, or disclosed to any third party.
 
-## Permissions
+**Third-party services**
 
-- **tabs:** Used to send speed control messages between the popup and the active tab.
-- **host_permissions (<all_urls>):** Required to inject the content script that controls video playback speed on any webpage.
+None. No analytics, advertising, or tracking of any kind.
 
-These permissions are not used to read, collect, or transmit any page content or user data.
+**Permissions**
 
-## Changes to This Policy
+**Chrome**
 
-If this policy is updated, the revised version will be posted at this URL with an updated date.
+- `tabs`: send speed control messages between the popup and the active tab.
+- Host access (`<all_urls>`): inject a content script that controls video playback speed on any page. Not used to read, collect, or transmit page content.
 
-## Contact
+**Safari (macOS and iOS)**
 
-If you have questions about this privacy policy, contact: victor@thesmios.com
+- `activeTab`: interact with the page you're currently viewing.
+- Website access (all websites): inject a content script that controls video playback speed. Safari requires you to grant this, and you can revoke or limit it to specific sites at any time in Safari settings.
+
+**Apple privacy**
+
+On iOS and macOS, the Extension runs inside Apple's App Sandbox and WebExtensions security model. It does not access other apps, the clipboard, camera, microphone, location, contacts, or any other protected resource. No App Tracking Transparency disclosure is needed because no tracking occurs.
+
+**Children's privacy**
+
+The Extension does not knowingly collect data from anyone, including children under 13.
+
+**Changes**
+
+If this policy changes, the new version will appear at this URL with an updated date.
+
+**Contact**
+
+- Chrome Web Store support contact (Chrome version).
+- App Store support link (macOS and iOS versions).
+- Email: **victor@thesmios.com**
